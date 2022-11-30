@@ -1,0 +1,38 @@
+#bodyy{
+    line-height: 40px !important;
+    text-align: left !important;
+}
+/* .modal-header .btn-close{
+    position: absolute;
+    right: 1.4rem;
+}
+.modal-title{
+    margin: 0 auto;
+}
+.modal.show .modal-dialog{
+    width: 100% !important;
+    margin: 0 auto;
+    max-width: 100% !important;
+    display: inline-block;
+}
+.modal{
+    padding: 0 !important;
+    height: 100vh;
+    background: #fff;
+    display: inline-block;
+} */
+#modall{
+    width: 100% !important;
+    margin: 0 auto;
+    border: none !important;
+    max-width: 100% !important;
+}
+.divv{
+    width: 40%;
+    margin: 0 auto;
+    height: 100vh;
+}
+.modal-content{
+    border: none !important;
+    border-radius: 0 !important;
+}

@@ -1,0 +1,23 @@
+.btn{
+    margin: 2% auto;
+    background-color: rgba(0,0,0,0) !important;
+    color: #553228 !important;
+    font-size: 28px !important;
+    border: none !important;
+}
+.btn-primary:focus{
+    box-shadow: none !important;
+}
+#row{
+    margin: 2%;
+}
+#header{
+    border: none !important;
+}
+.modal-backdrop{
+    background: #fff !important;
+}
+.statsdiv{
+    padding: 2%;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.2);
+}
