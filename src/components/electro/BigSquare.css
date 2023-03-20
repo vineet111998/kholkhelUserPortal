@@ -1,0 +1,67 @@
+.elctroContainer {
+    /* margin: 5px 0px; */
+  
+    position: relative;
+    margin: 20px;
+    cursor: default;
+    touch-action: none;
+    background: rgb(250 248 217 / 74%) !important;
+    /* border-radius: 12px; */
+    width: 500px;
+    height: 500px;
+}
+.electroContainer-1-Sub{
+  grid-template-columns: auto auto auto auto;
+    display: grid;
+}
+
+.Container-Sub {
+    width: 115px;
+    height: 115px;
+    /* margin-right: 15px; */
+    margin: 5px;
+    /* border-radius: 10px; */
+    background-color:black;
+}
+
+.Container:nth-child(2) .Container-Sub{
+    
+    /* border: 1px dotted rgb(0 0 0 / 20%); */
+
+}
+.Container:nth-child(1) .Container-Sub{
+    
+    
+      cursor: grab;
+      transition: transform 0.2s, box-shadow 0.2s;
+      
+       
+}
+.Container:nth-child(1) .Container-Sub:hover {
+    /* -moz-transform: scale(1.03, 1.03);
+    -ms-transform: scale(1.03, 1.03);
+    -webkit-transform: scale(1.03, 1.03); */
+    transform: scale(1.03, 1.03);
+    /* -moz-box-shadow: #830f94 0 1px 3px;
+    -webkit-box-shadow: #830f94 0 1px 3px; */
+    box-shadow: rgb(85 50 40 / 40%) 0 1px 3px;
+  }
+  .Container:nth-child(1) .Container-Sub:active {
+    cursor: grabbing;
+    -moz-transform: scale(1.1, 1.1);
+    -ms-transform: scale(1.1, 1.1);
+    -webkit-transform: scale(1.1, 1.1);
+    transform: scale(1.1, 1.1);
+    -moz-box-shadow: rgb(85 50 40 / 20%) 0 2px 8px;
+    -webkit-box-shadow: rgb(85 50 40 / 20%) 0 2px 8px;
+    box-shadow: rgb(85 50 40 / 20%) 0 2px 8px;
+  }
+  /* .Container:nth-child(1) .Container-Sub:before {
+    content: ".";
+    position: absolute;
+    left: 14px;
+    font-size: 20px;
+    line-height: 26px;
+    color: #ac14c2;
+    text-shadow: 0 5px #ac14c2, 0 10px #ac14c2, 5px 0 #ac14c2, 5px 5px #ac14c2, 5px 10px #ac14c2, 10px 0 #ac14c2, 10px 5px #ac14c2, 10px 10px #ac14c2;
+  } */
